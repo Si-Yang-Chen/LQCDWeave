@@ -29,5 +29,9 @@ jobs:
           python -m pip install --no-build-isolation -c constraints/cpu-py312-linux.txt -e '.[cpu,dev]'
       - name: Check dependency metadata
         run: python -m pip check
-      - name: Run CPU regression and architecture checks
-        run: python -m unittest discover -s tests -v
+      - name: Run CPU unit tests
+        run: python tools/test_tiers.py --tier cpu-unit
+      - name: Run CPU integration and architecture checks
+        run: python tools/test_tiers.py --tier cpu-integration
+      - name: Run scientific reference tests
+        run: python tools/test_tiers.py --tier scientific-reference

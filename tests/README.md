@@ -47,6 +47,8 @@ CPU 单元/集成/科学参考/GPU 四组组成常规 unittest 发现用例的�
 | MPI | `python benchmarks/launch_mpi.py --old-root /path/to/legacy --data-root /path/to/weak_field --output /external/mpi-quda.json` | CSNS 指定匹配的 OpenMPI/PyQUDA，实际 legacy 和固定输入；现有入口只启动 1 rank，不能宣称多 rank 数值或共享文件系统验收 |
 | 性能 | `asv check`、`asv machine`、`asv continuous BASE_COMMIT HEAD`；GPU 用 `reframe -C SITE_CONFIG -c benchmarks/reframe --system csns:dggpu --repeat 3 --run` | 同硬件、精度、输入哈希和计时边界；GPU 经授权调度，CPU 正确性通过不证明速度回归通过 |
 
+GitHub 的 CPU tests 工作流分别运行 CPU 单元、CPU 集成和科学参考三层，不运行真实 GPU 用例；CPU CI 通过不代表 GPU 已验收。GPU 层仍要求真实 CUDA 环境，缺少环境不能作为通过。
+
 QUDA/MPI/性能保留已有独立 runner，细节见 [性能基准](../benchmarks/README.md)。
 `python tools/test_tiers.py --tier quda --list`（或 `mpi`、`performance`）只列前提和命令；
 不带 `--list` 仍不启动它们，并以退出码 2 明确报告 NOT RUN。当前无通用多 rank
