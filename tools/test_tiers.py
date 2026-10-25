@@ -31,6 +31,20 @@ REFERENCE_MODULES = frozenset({
 # Root-level numerical module tests are otherwise treated as integration tests.
 UNIT_MODULES = frozenset({"test_dilution_weights"})
 GPU_PREFIXES = (
+    'correlator.execution.test_baryon_host_gpu',
+    'correlator.execution.test_whole_vertex_gpu',
+    'correlator.execution.test_baryon_sparse_spin_batch.BatchedSparseSpinTests.test_gpu_batched_matmul_matches_independent_cpu_reference',
+    'correlator.execution.test_batched_matmul_dispatch.BatchedMatmulCuPyTests.',
+    'correlator.execution.test_factorized_factory_reuse.FactorizedFactoryReuseCuPyTests.',
+    'correlator.execution.test_factorized_gemm.FactorizedGemmCuPyTests.',
+    'correlator.execution.test_factorized_gram.FactorizedGramCuPyTests.',
+    'correlator.execution.test_factorized_wide_reduction.FactorizedWideCuPyTests.test_gpu_complex_spatial_projection_archive_uses_independent_c128',
+    'correlator.execution.test_factorized_wide_reduction.FactorizedWideCuPyTests.test_public_default_two_cfg_fixed_archive_and_preparation_carry',
+    'correlator.execution.test_factorized_wide_reduction.FactorizedWideCuPyTests.test_raw_strides_current_values_and_owned_release',
+    'correlator.execution.test_factorized_wide_reduction.FactorizedWideCuPyTests.test_tiled_component_cancellation_negative_strides_and_lane_archive',
+    'correlator.execution.test_monomial_preparation.MonomialPreparationCuPyTests.',
+    'correlator.execution.test_spin_spatial_factors.SpinSpatialCuPyTests.',
+    'correlator.execution.test_tiled_launch_arguments.TiledLaunchArgumentsCuPyTests.',
     # Real-device oracles are separate from CPU protocol and host-kernel tests.
     "correlator.execution.test_bound_output_views.RealCuPyBoundOutputViewTests.",
     "correlator.execution.test_bound_output_views.RealCuPyOutputSnapshotTests.",
@@ -103,6 +117,7 @@ EXTERNAL_TIERS = {
 
 
 def tier_for(test_id):
+    test_id = test_id.removeprefix("unittest.loader.ModuleSkipped.")
     if test_id.startswith("slow."):
         return "slow"
     if test_id.startswith("temporary."):

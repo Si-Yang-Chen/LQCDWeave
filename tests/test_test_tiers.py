@@ -13,6 +13,20 @@ spec.loader.exec_module(tiers)
 
 
 class TestTierTests(unittest.TestCase):
+    def test_new_gpu_families_and_module_skips_preserve_cpu_siblings(self):
+        cases = {
+            "unittest.loader.ModuleSkipped.correlator.execution.test_baryon_host_gpu": "gpu",
+            "unittest.loader.ModuleSkipped.correlator.execution.test_whole_vertex_gpu": "gpu",
+            "correlator.execution.test_batched_matmul_dispatch.BatchedMatmulCuPyTests.test_long_double_inner_products_strides_current_stream_and_fresh_owners": "gpu",
+            "correlator.execution.test_factorized_wide_reduction.FactorizedWideCuPyTests.test_gpu_complex_spatial_projection_archive_uses_independent_c128": "gpu",
+            "correlator.execution.test_factorized_wide_reduction.FactorizedWideCuPyTests.test_cpu_complex_spatial_projection_archive_uses_independent_c128": "cpu-unit",
+            "correlator.execution.test_factorized_wide_reduction.FactorizedWideCuPyTests.test_cpu_fixture_retains_sources_and_rebinds_two_cfgs": "cpu-unit",
+            "correlator.execution.test_batched_matmul_dispatch.BatchedMatmulDispatchTests.test_fresh_arrays_and_outputs_are_not_retained": "cpu-unit",
+        }
+        for identity, expected in cases.items():
+            with self.subTest(identity=identity):
+                self.assertEqual(tiers.tier_for(identity), expected)
+
     def test_unit_integration_reference_and_gpu_membership(self):
         for identity, expected in (
             ("storage.test_dataset.DatasetTests.test_read", "cpu-unit"),
