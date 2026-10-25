@@ -112,7 +112,9 @@ class DependencyTierTests(unittest.TestCase):
         self.assertIn("--no-build-isolation", workflow)
         self.assertIn(".[cpu,dev]", workflow)
         self.assertIn("python -m pip check", workflow)
-        self.assertIn("python -m unittest discover -s tests -v", workflow)
+        for tier in ("cpu-unit", "cpu-integration", "scientific-reference"):
+            self.assertIn(f"python tools/test_tiers.py --tier {tier}", workflow)
+        self.assertNotIn("python -m unittest discover -s tests -v", workflow)
         self.assertNotIn("--find-links .github/test-wheels", workflow)
 
 
