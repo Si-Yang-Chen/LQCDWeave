@@ -1,0 +1,33 @@
+name: CPU tests
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  unittest:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install declared CPU dependencies (Python 3.11 compatibility)
+        if: matrix.python-version == '3.11'
+        run: python -m pip install -e '.[cpu,dev]'
+      - name: Install verified CPU constraints (Python 3.12)
+        if: matrix.python-version == '3.12'
+        run: |
+          python -m pip install -r constraints/build-py312-linux.txt
+          python -m pip install --no-build-isolation -c constraints/cpu-py312-linux.txt -e '.[cpu,dev]'
+      - name: Check dependency metadata
+        run: python -m pip check
+      - name: Run CPU regression and architecture checks
+        run: python -m unittest discover -s tests -v

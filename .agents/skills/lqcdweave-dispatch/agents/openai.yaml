@@ -1,0 +1,4 @@
+interface:
+  display_name: "LQCDweave · Dispatch 任务分配"
+  short_description: "统一多组态及独立任务分配，安排共同准备与完成核验，并保留跨组态连续预读入口"
+  default_prompt: "使用 $lqcdweave-dispatch，为共享任务清单组织 Dispatch 消费者，复用共同准备并核对完成与恢复；已明确一 cfg 一任务时保留静态映射，需要跨 cfg 预读时使用完整计划 iterator。"

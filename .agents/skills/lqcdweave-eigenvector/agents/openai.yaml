@@ -1,0 +1,4 @@
+interface:
+  display_name: "LQCDweave · Laplace低模生产"
+  short_description: "从指定规范组态计算 distillation 使用的 Laplace低模基底"
+  default_prompt: "使用 $lqcdweave-eigenvector 为已有规范组态编写计算 Laplace低模的使用脚本。"

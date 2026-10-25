@@ -1,0 +1,4 @@
+interface:
+  display_name: "LQCDweave · 时间取样与重建"
+  short_description: "选择测量时间片并按实际源汇配对重建完整时间差关联函数"
+  default_prompt: "使用 $lqcdweave-temporal-sampling 为指定格点选择时间取样方案并说明如何重建两点函数。"

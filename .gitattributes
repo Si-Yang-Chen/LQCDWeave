@@ -1,0 +1,7 @@
+* text=auto eol=lf
+# Preserve the exact bytes of copied reference materials.
+docs/temporal-sparsen/** -text
+src/lqcdweave/operators/single_hadron/presets/meson55.json -text !eol whitespace=cr-at-eol
+*.png binary
+*.jpg binary
+*.pdf binary

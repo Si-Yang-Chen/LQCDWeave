@@ -1,0 +1,4 @@
+interface:
+  display_name: "LQCDweave · Elemental生产"
+  short_description: "按实际配方生产介子重子及流空间数据，保留后端时间与保存选择"
+  default_prompt: "使用 $lqcdweave-elemental，按配方独立生产 elemental 并核对输入和保存交接；若目标是关联函数测量，则沿用 correlator 的自动准备入口。"

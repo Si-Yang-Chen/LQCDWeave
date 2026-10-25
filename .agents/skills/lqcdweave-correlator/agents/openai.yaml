@@ -1,0 +1,4 @@
+interface:
+  display_name: "LQCDweave · 强子关联函数"
+  short_description: "从物理算符构造谱学与多点测量，统一使用 calculate 规划、回放和验证"
+  default_prompt: "使用 $lqcdweave-correlator，按我的测量定义经 gen_correlator 和 calculate 编写脚本，核对输入、自动 elemental 准备、计划和验证范围。"

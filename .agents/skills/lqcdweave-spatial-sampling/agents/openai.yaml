@@ -1,0 +1,4 @@
+interface:
+  display_name: "LQCDweave · 空间取样"
+  short_description: "为随机空间取样生成实际有序点集并按所选格式保存读取"
+  default_prompt: "使用 $lqcdweave-spatial-sampling 按我的策略生成或读取实际有序点集，并按指定格式保存。"

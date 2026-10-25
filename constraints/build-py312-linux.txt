@@ -1,0 +1,6 @@
+# Build/install tools observed with the CPU snapshot; install explicitly.
+# Use --no-build-isolation after installing these when reproducing a build.
+pip==26.2.1
+setuptools==84.0.0
+wheel==0.48.0
+packaging==26.3

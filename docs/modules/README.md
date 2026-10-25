@@ -1,0 +1,28 @@
+# 模块文档
+
+每个模块集中维护其负责的科学定义、接口、算法、数据约定与限制。跨模块交接见[架构索引](../architecture/README.md)，计算任务入口见[skill 导航](../guides/README.md)。
+
+- [格点对称性](symmetry/README.md)
+- [单强子算符与目录](operators/README.md)
+- [符号与 Wick](symbolic/README.md)
+- [数据顶点绑定](binding/README.md)
+- [图展开与重子因子网络](expansion/README.md)
+- [路径、存储与坐标规划](planning/README.md)
+- [数值执行与局部内核](execution/README.md)
+- [结果装配与两点重建](results/README.md)
+- [性能模型与测量](performance/README.md)
+- [计划档案](plan_archive/README.md)
+- [中立契约](contracts/README.md)
+- [关联函数编排](correlator/README.md)
+- [Elemental 生产](elemental/README.md)
+- [传播子生产与投影](perambulator/README.md)
+- [Laplace 本征矢](eigenvector/README.md)
+- [Noisevector](noisevector/README.md)
+- [时间取样](temporal_sampling/README.md)
+- [空间取样](spatial_sampling/README.md)
+- [数据存储与生命周期](storage/README.md)
+- [运行时内存观察](runtime_memory/README.md)
+- [已有测量核与数据适配](measurements/README.md)
+- [已有数据读取](data_readers/README.md)
+- [数据集兼容性与依赖规划](dataset_planning/README.md)
+- [任务分配](dispatch/README.md)

@@ -1,0 +1,21 @@
+{
+  "schema": "lqcdweave.rho-pipi-cpu-oracle/v1",
+  "source": "Legacy lattice.quark_diagram calc_diagram_eval on the fixed-seed gauge and newly generated CPU VSV/elemental",
+  "gauge_seed": 20260927,
+  "lattice": [3, 3, 3, 2],
+  "Ne": 2,
+  "dirac": {"action": "isotropic_unimproved_wilson", "mass": 0.4, "temporal_boundary": "antiperiodic"},
+  "elemental": {"path": [], "momenta": [[0, 0, 0], [0, 0, 1], [0, 0, -1]], "phase": "anchor"},
+  "operator_order": ["rho0", "pipi_pz"],
+  "axes": ["source_operator", "sink_operator", "source_time", "sink_time"],
+  "selected_values": [
+    {"index": [0, 0, 0, 0], "value": [1.3052791682196867, -1.6879672572883697e-17]},
+    {"index": [0, 0, 1, 1], "value": [1.2825456751141673, 2.3747415709221564e-17]},
+    {"index": [0, 1, 0, 0], "value": [0.0, 0.00842826463060846]},
+    {"index": [0, 1, 1, 1], "value": [2.710505431213761e-19, -0.0029795417760508525]},
+    {"index": [1, 0, 0, 0], "value": [4.336808689942018e-19, -0.00842826463060846]},
+    {"index": [1, 1, 0, 0], "value": [0.03116038055807471, 9.112628432091212e-19]},
+    {"index": [1, 1, 0, 1], "value": [-8.11450619181762e-06, 1.6245827230541464e-21]},
+    {"index": [1, 1, 1, 1], "value": [0.019027568448187208, 2.1600148506288653e-18]}
+  ]
+}

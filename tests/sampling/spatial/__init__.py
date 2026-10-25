@@ -1,0 +1,1 @@
+"""Spatial sampling module tests."""

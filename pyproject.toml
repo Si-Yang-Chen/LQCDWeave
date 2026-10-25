@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lqcdweave"
+version = "0.1.0.dev0"
+description = "Reusable lattice QCD computation from gauge configurations to correlators"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.23", "opt_einsum>=3.3,<4"]
+
+[project.optional-dependencies]
+hdf5 = ["h5py>=3.10"]
+laplace = ["scipy>=1.11"]
+correlator = ["sympy>=1.12", "scipy>=1.11", "lazy-object-proxy", "h5py>=3.10", "psutil>=5.9; sys_platform == 'win32'"]
+# Complete single-process CPU feature tier; keep the smaller extras available.
+cpu = ["scipy>=1.11", "sympy>=1.12", "lazy-object-proxy", "h5py>=3.10", "psutil>=5.9; sys_platform == 'win32'"]
+mpi = ["mpi4py>=4"]
+dev = ["pytest>=9.1.1,<10"]
+perf = ["asv>=0.6.6,<0.7", "pyperf>=2.10.0,<3"]
+perf-hpc = ["reframe-hpc>=4.10.4,<5"]
+
+[project.scripts]
+lqcdweave-profile = "lqcdweave.contraction.performance.profile:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"lqcdweave.production.elemental" = ["*.cu"]
+"lqcdweave.contraction.performance" = ["profiles/*.json", "profiles/targets/*.json"]
+"lqcdweave.operators.single_hadron" = ["presets/*.json"]

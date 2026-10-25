@@ -1,0 +1,4 @@
+interface:
+  display_name: "LQCDweave · 传播子生产"
+  short_description: "按实际作用量和源汇基底生产传播子并选择脚本保存方式"
+  default_prompt: "使用 $lqcdweave-perambulator 为已有规范场与实际源汇基底编写所需传播子生产脚本，核对产品、求解和保存方式。"

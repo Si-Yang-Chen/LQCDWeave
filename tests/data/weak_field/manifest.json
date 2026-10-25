@@ -1,0 +1,21 @@
+{
+  "source": "Earlier EasyDistillation/test weak_field reference set, copied verbatim on 2026-09-26",
+  "arrays": {
+    "weak_field.displacement_elemental.npy": {"shape": [9, 6, 8, 20, 20], "dtype": "complex128"},
+    "weak_field.eigenvalue.npy": {"shape": [8, 20], "dtype": "complex128"},
+    "weak_field.eigenvector.input.npy": {"shape": [8, 20, 4, 4, 4, 3], "dtype": "complex128"},
+    "weak_field.eigenvector.ref.npy": {"shape": [8, 20, 4, 4, 4, 3], "dtype": "complex128"},
+    "weak_field.elemental.npy": {"shape": [13, 7, 8, 20, 20], "dtype": "complex128"},
+    "weak_field.npy": {"shape": [4, 4, 4, 4, 8, 3, 3], "dtype": "complex128"},
+    "weak_field.perambulator.npy": {"shape": [8, 8, 4, 4, 20, 20], "dtype": "complex128"}
+  },
+  "reference_checks": {
+    "gauge_npy_bin_identical": true,
+    "input_basis_orthogonality_max_error": 1.5605447502373835e-12,
+    "stored_vsv_gamma5_relative_error": 8.61316607258447e-10
+  },
+  "limitations": [
+    "The stored physical clover/stout propagation was not recomputed as part of the fixture checks.",
+    "The stored perambulator has no complete production manifest."
+  ]
+}

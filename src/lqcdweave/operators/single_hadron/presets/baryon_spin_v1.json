@@ -1,0 +1,8430 @@
+{
+  "schema": 1,
+  "name": "baryon-spin",
+  "version": "v1",
+  "basis": "degrand_rossi",
+  "dimension": 64,
+  "group": "Oh-double x S3",
+  "convention": "coefficient columns transform by S* on each spin leg; exchange is transpose(inverse(p)); canonical lattice_symmetry cubic rows and QuarkExchange (MS,MA) rows; ordered projected columns fix copies and phases",
+  "reference": "https://arxiv.org/abs/hep-lat/0508018",
+  "rows": [
+    {
+      "id": 0,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1g_S_copy0/row0",
+      "multiplet": "spin_G1g_S_copy0",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 0,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            2
+          ],
+          "coefficient": [
+            0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": [
+            0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1g_S_copy0/row1",
+      "multiplet": "spin_G1g_S_copy0",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 0,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            3
+          ],
+          "coefficient": [
+            -0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            1
+          ],
+          "coefficient": [
+            -0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.333333333333333,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hg_S_copy0/row0",
+      "multiplet": "spin_Hg_S_copy0",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 0,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": [
+            0.7071067811865472,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            2,
+            2
+          ],
+          "coefficient": [
+            0.7071067811865472,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hg_S_copy0/row1",
+      "multiplet": "spin_Hg_S_copy0",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 0,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            2
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hg_S_copy0/row2",
+      "multiplet": "spin_Hg_S_copy0",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 0,
+      "row": 2,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            1
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            3
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hg_S_copy0/row3",
+      "multiplet": "spin_Hg_S_copy0",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 0,
+      "row": 3,
+      "terms": [
+        {
+          "spin": [
+            1,
+            1,
+            1
+          ],
+          "coefficient": [
+            0.7071067811865472,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            3,
+            3
+          ],
+          "coefficient": [
+            0.7071067811865472,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hg_S_copy1/row0",
+      "multiplet": "spin_Hg_S_copy1",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 1,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            2
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hg_S_copy1/row1",
+      "multiplet": "spin_Hg_S_copy1",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 1,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            2
+          ],
+          "coefficient": [
+            0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": [
+            0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hg_S_copy1/row2",
+      "multiplet": "spin_Hg_S_copy1",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 1,
+      "row": 2,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            3
+          ],
+          "coefficient": [
+            0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.23570226039551545,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hg_S_copy1/row3",
+      "multiplet": "spin_Hg_S_copy1",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 1,
+      "row": 3,
+      "terms": [
+        {
+          "spin": [
+            1,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            3
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            1
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1g_A_copy0/row0",
+      "multiplet": "spin_G1g_A_copy0",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "A",
+      "exchange_component": "A",
+      "copy": 0,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1g_A_copy0/row1",
+      "multiplet": "spin_G1g_A_copy0",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "A",
+      "exchange_component": "A",
+      "copy": 0,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            1
+          ],
+          "coefficient": [
+            -0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            3
+          ],
+          "coefficient": [
+            -0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.2886751345948127,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1g_MS_copy0/row0",
+      "multiplet": "spin_G1g_MS_copy0",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 0,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.5773502691896253,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.5773502691896253,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            2
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1g_MS_copy0/row1",
+      "multiplet": "spin_G1g_MS_copy0",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 0,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            1
+          ],
+          "coefficient": [
+            0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.5773502691896254,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            3
+          ],
+          "coefficient": [
+            0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.5773502691896254,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1g_MA_copy0/row0",
+      "multiplet": "spin_G1g_MA_copy0",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 0,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.4999999999999995,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": [
+            -0.4999999999999995,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.4999999999999995,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            2
+          ],
+          "coefficient": [
+            -0.4999999999999995,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1g_MA_copy0/row1",
+      "multiplet": "spin_G1g_MA_copy0",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 0,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            1
+          ],
+          "coefficient": [
+            0.49999999999999956,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.49999999999999956,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            3
+          ],
+          "coefficient": [
+            0.49999999999999956,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.49999999999999956,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1g_MS_copy1/row0",
+      "multiplet": "spin_G1g_MS_copy1",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 1,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.47140452079103107,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.23570226039551548,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.23570226039551548,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            2
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.47140452079103107,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.23570226039551548,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.23570226039551548,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1g_MS_copy1/row1",
+      "multiplet": "spin_G1g_MS_copy1",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 1,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.23570226039551548,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            1
+          ],
+          "coefficient": [
+            -0.11785113019775778,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            3
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.23570226039551548,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.47140452079103107,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.11785113019775778,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            3
+          ],
+          "coefficient": [
+            -0.11785113019775778,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551548,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.11785113019775778,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551548,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.47140452079103107,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1g_MA_copy1/row0",
+      "multiplet": "spin_G1g_MA_copy1",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 1,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.4082482904638624,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.20412414523193115,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.20412414523193115,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            2
+          ],
+          "coefficient": [
+            -0.4082482904638624,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.20412414523193115,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.4082482904638624,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": [
+            -0.4082482904638624,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.20412414523193115,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1g_MA_copy1/row1",
+      "multiplet": "spin_G1g_MA_copy1",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 1,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            3
+          ],
+          "coefficient": [
+            0.4082482904638624,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.4082482904638624,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            1
+          ],
+          "coefficient": [
+            0.4082482904638624,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.4082482904638624,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.20412414523193118,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1g_MS_copy2/row0",
+      "multiplet": "spin_G1g_MS_copy2",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 2,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.3535533905932736,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1g_MS_copy2/row1",
+      "multiplet": "spin_G1g_MS_copy2",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 2,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.35355339059327356,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.35355339059327356,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.35355339059327356,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.35355339059327356,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1g_MA_copy2/row0",
+      "multiplet": "spin_G1g_MA_copy2",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 2,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.4082482904638627,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.20412414523193137,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.20412414523193137,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.20412414523193134,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.4082482904638627,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.20412414523193134,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.20412414523193137,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.20412414523193137,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.20412414523193134,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.4082482904638627,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.20412414523193134,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.4082482904638627,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1g_MA_copy2/row1",
+      "multiplet": "spin_G1g_MA_copy2",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 2,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.4082482904638627,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.20412414523193131,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.4082482904638627,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.20412414523193131,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.2041241452319314,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.2041241452319314,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.20412414523193131,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.4082482904638627,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.20412414523193131,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.2041241452319314,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.2041241452319314,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.4082482904638627,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hg_MS_copy0/row0",
+      "multiplet": "spin_Hg_MS_copy0",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 0,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.5773502691896252,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.2886751345948126,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            2
+          ],
+          "coefficient": [
+            -0.2886751345948126,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": [
+            -0.2886751345948126,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.2886751345948126,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.5773502691896252,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hg_MS_copy0/row1",
+      "multiplet": "spin_Hg_MS_copy0",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 0,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.33333333333333276,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.33333333333333287,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.16666666666666638,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.33333333333333287,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            2
+          ],
+          "coefficient": [
+            -0.16666666666666638,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.16666666666666638,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.33333333333333276,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.33333333333333287,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": [
+            -0.16666666666666638,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.33333333333333287,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hg_MS_copy0/row2",
+      "multiplet": "spin_Hg_MS_copy0",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 0,
+      "row": 2,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.33333333333333287,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            1
+          ],
+          "coefficient": [
+            -0.16666666666666652,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            3
+          ],
+          "coefficient": [
+            -0.16666666666666638,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.33333333333333287,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.33333333333333276,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.16666666666666638,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.16666666666666652,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            1
+          ],
+          "coefficient": [
+            -0.16666666666666638,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            3
+          ],
+          "coefficient": [
+            -0.16666666666666652,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.33333333333333287,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.16666666666666652,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.16666666666666638,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.33333333333333287,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.33333333333333276,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hg_MS_copy0/row3",
+      "multiplet": "spin_Hg_MS_copy0",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 0,
+      "row": 3,
+      "terms": [
+        {
+          "spin": [
+            1,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.5773502691896253,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            1
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            3
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            1
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            3
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.5773502691896253,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hg_MA_copy0/row0",
+      "multiplet": "spin_Hg_MA_copy0",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 0,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.49999999999999933,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            2
+          ],
+          "coefficient": [
+            -0.49999999999999933,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": [
+            -0.49999999999999933,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.49999999999999933,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hg_MA_copy0/row1",
+      "multiplet": "spin_Hg_MA_copy0",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 0,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.28867513459481237,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.2886751345948124,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.2886751345948124,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            2
+          ],
+          "coefficient": [
+            -0.28867513459481237,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.2886751345948124,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.28867513459481237,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": [
+            -0.28867513459481237,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.2886751345948124,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hg_MA_copy0/row2",
+      "multiplet": "spin_Hg_MA_copy0",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 0,
+      "row": 2,
+      "terms": [
+        {
+          "spin": [
+            0,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            3
+          ],
+          "coefficient": [
+            -0.28867513459481237,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.28867513459481237,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            1
+          ],
+          "coefficient": [
+            -0.28867513459481237,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.28867513459481237,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.2886751345948125,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hg_MA_copy0/row3",
+      "multiplet": "spin_Hg_MA_copy0",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 0,
+      "row": 3,
+      "terms": [
+        {
+          "spin": [
+            1,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.49999999999999944,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            3
+          ],
+          "coefficient": [
+            -0.49999999999999944,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            1
+          ],
+          "coefficient": [
+            -0.49999999999999944,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.49999999999999944,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1u_S_copy0/row0",
+      "multiplet": "spin_G1u_S_copy0",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 0,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            2
+          ],
+          "coefficient": [
+            -0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": [
+            0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1u_S_copy0/row1",
+      "multiplet": "spin_G1u_S_copy0",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 0,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            3
+          ],
+          "coefficient": [
+            0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            1
+          ],
+          "coefficient": [
+            -0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            3
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            1
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.333333333333333,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.16666666666666635,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.333333333333333,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hu_S_copy0/row0",
+      "multiplet": "spin_Hu_S_copy0",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 0,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            0,
+            0
+          ],
+          "coefficient": [
+            0.7071067811865472,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            2,
+            2
+          ],
+          "coefficient": [
+            -0.7071067811865472,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hu_S_copy0/row1",
+      "multiplet": "spin_Hu_S_copy0",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 0,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            2
+          ],
+          "coefficient": [
+            -0.40824829046386274,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hu_S_copy0/row2",
+      "multiplet": "spin_Hu_S_copy0",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 0,
+      "row": 2,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            1
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            3
+          ],
+          "coefficient": [
+            -0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.40824829046386274,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hu_S_copy0/row3",
+      "multiplet": "spin_Hu_S_copy0",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 0,
+      "row": 3,
+      "terms": [
+        {
+          "spin": [
+            1,
+            1,
+            1
+          ],
+          "coefficient": [
+            0.7071067811865472,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            3,
+            3
+          ],
+          "coefficient": [
+            -0.7071067811865472,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hu_S_copy1/row0",
+      "multiplet": "spin_Hu_S_copy1",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 1,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            2
+          ],
+          "coefficient": [
+            -0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.40824829046386274,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hu_S_copy1/row1",
+      "multiplet": "spin_Hu_S_copy1",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 1,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            2
+          ],
+          "coefficient": [
+            -0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": [
+            0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hu_S_copy1/row2",
+      "multiplet": "spin_Hu_S_copy1",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 1,
+      "row": 2,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            3
+          ],
+          "coefficient": [
+            -0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            3
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            1
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.23570226039551545,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.23570226039551545,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hu_S_copy1/row3",
+      "multiplet": "spin_Hu_S_copy1",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 1,
+      "row": 3,
+      "terms": [
+        {
+          "spin": [
+            1,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            3
+          ],
+          "coefficient": [
+            -0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            1
+          ],
+          "coefficient": [
+            0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            3
+          ],
+          "coefficient": [
+            -0.40824829046386274,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            3,
+            1
+          ],
+          "coefficient": [
+            -0.40824829046386274,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1u_A_copy0/row0",
+      "multiplet": "spin_G1u_A_copy0",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "A",
+      "exchange_component": "A",
+      "copy": 0,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.28867513459481264,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1u_A_copy0/row1",
+      "multiplet": "spin_G1u_A_copy0",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "A",
+      "exchange_component": "A",
+      "copy": 0,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            1
+          ],
+          "coefficient": [
+            -0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            1
+          ],
+          "coefficient": [
+            -0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.2886751345948127,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1u_MS_copy0/row0",
+      "multiplet": "spin_G1u_MS_copy0",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 0,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.5773502691896253,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.5773502691896253,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            2
+          ],
+          "coefficient": [
+            0.28867513459481264,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1u_MS_copy0/row1",
+      "multiplet": "spin_G1u_MS_copy0",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 0,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            1
+          ],
+          "coefficient": [
+            0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.5773502691896254,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            3
+          ],
+          "coefficient": [
+            -0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.2886751345948127,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.5773502691896254,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1u_MA_copy0/row0",
+      "multiplet": "spin_G1u_MA_copy0",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 0,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.4999999999999995,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            0
+          ],
+          "coefficient": [
+            -0.4999999999999995,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.4999999999999995,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            2
+          ],
+          "coefficient": [
+            0.4999999999999995,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1u_MA_copy0/row1",
+      "multiplet": "spin_G1u_MA_copy0",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 0,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            1
+          ],
+          "coefficient": [
+            0.49999999999999956,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.49999999999999956,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            3
+          ],
+          "coefficient": [
+            -0.49999999999999956,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.49999999999999956,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1u_MS_copy1/row0",
+      "multiplet": "spin_G1u_MS_copy1",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 1,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.47140452079103107,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.23570226039551548,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.23570226039551548,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            2
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.47140452079103107,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.23570226039551548,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.23570226039551548,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1u_MS_copy1/row1",
+      "multiplet": "spin_G1u_MS_copy1",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 1,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.23570226039551548,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            1
+          ],
+          "coefficient": [
+            -0.11785113019775778,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            3
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.23570226039551548,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.47140452079103107,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.11785113019775778,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            1
+          ],
+          "coefficient": [
+            0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.11785113019775778,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            1
+          ],
+          "coefficient": [
+            -0.23570226039551548,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.11785113019775778,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.23570226039551553,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.11785113019775775,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.23570226039551548,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.47140452079103107,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1u_MA_copy1/row0",
+      "multiplet": "spin_G1u_MA_copy1",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 1,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.4082482904638624,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.20412414523193115,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.20412414523193115,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            2
+          ],
+          "coefficient": [
+            0.4082482904638624,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.20412414523193115,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.4082482904638624,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": [
+            -0.4082482904638624,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.20412414523193115,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1u_MA_copy1/row1",
+      "multiplet": "spin_G1u_MA_copy1",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 1,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            3
+          ],
+          "coefficient": [
+            -0.4082482904638624,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.4082482904638624,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            1
+          ],
+          "coefficient": [
+            0.4082482904638624,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            3
+          ],
+          "coefficient": [
+            -0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.4082482904638624,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.20412414523193118,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.20412414523193118,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1u_MS_copy2/row0",
+      "multiplet": "spin_G1u_MS_copy2",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 2,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.3535533905932736,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1u_MS_copy2/row1",
+      "multiplet": "spin_G1u_MS_copy2",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 2,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": [
+            -0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.35355339059327356,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.35355339059327356,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            3
+          ],
+          "coefficient": [
+            -0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            1
+          ],
+          "coefficient": [
+            0.3535533905932736,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.35355339059327356,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.35355339059327356,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1u_MA_copy2/row0",
+      "multiplet": "spin_G1u_MA_copy2",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 2,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.4082482904638627,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.20412414523193137,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.20412414523193137,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.20412414523193134,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.4082482904638627,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.20412414523193134,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.20412414523193137,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.20412414523193137,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.20412414523193134,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.4082482904638627,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.20412414523193134,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.4082482904638627,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_G1u_MA_copy2/row1",
+      "multiplet": "spin_G1u_MA_copy2",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 2,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.4082482904638627,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.20412414523193131,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.4082482904638627,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.20412414523193131,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.2041241452319314,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": [
+            -0.2041241452319314,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            3
+          ],
+          "coefficient": [
+            -0.20412414523193131,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            1
+          ],
+          "coefficient": [
+            -0.4082482904638627,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.20412414523193131,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": [
+            0.2041241452319314,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.2041241452319314,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.4082482904638627,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hu_MS_copy0/row0",
+      "multiplet": "spin_Hu_MS_copy0",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 0,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.5773502691896252,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.2886751345948126,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            2
+          ],
+          "coefficient": [
+            0.2886751345948126,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": [
+            -0.2886751345948126,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.2886751345948126,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.5773502691896252,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hu_MS_copy0/row1",
+      "multiplet": "spin_Hu_MS_copy0",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 0,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.33333333333333276,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.33333333333333287,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.16666666666666638,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.33333333333333287,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            2
+          ],
+          "coefficient": [
+            0.16666666666666638,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.16666666666666638,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.33333333333333276,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.33333333333333287,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": [
+            -0.16666666666666638,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            2
+          ],
+          "coefficient": [
+            0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            0
+          ],
+          "coefficient": [
+            -0.33333333333333287,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hu_MS_copy0/row2",
+      "multiplet": "spin_Hu_MS_copy0",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 0,
+      "row": 2,
+      "terms": [
+        {
+          "spin": [
+            0,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.33333333333333287,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            1
+          ],
+          "coefficient": [
+            -0.16666666666666652,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            3
+          ],
+          "coefficient": [
+            0.16666666666666638,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.33333333333333287,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.33333333333333276,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.16666666666666638,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.16666666666666652,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            1
+          ],
+          "coefficient": [
+            -0.16666666666666638,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.16666666666666652,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            3,
+            1
+          ],
+          "coefficient": [
+            -0.33333333333333287,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.16666666666666652,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            3
+          ],
+          "coefficient": [
+            0.16666666666666638,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": [
+            0.16666666666666646,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            2,
+            1
+          ],
+          "coefficient": [
+            -0.33333333333333287,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            3,
+            0
+          ],
+          "coefficient": [
+            -0.33333333333333276,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hu_MS_copy0/row3",
+      "multiplet": "spin_Hu_MS_copy0",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 0,
+      "row": 3,
+      "terms": [
+        {
+          "spin": [
+            1,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.5773502691896253,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            1
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            3
+          ],
+          "coefficient": [
+            0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            1
+          ],
+          "coefficient": [
+            -0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            3
+          ],
+          "coefficient": [
+            0.28867513459481264,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            3,
+            1
+          ],
+          "coefficient": [
+            -0.5773502691896253,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hu_MA_copy0/row0",
+      "multiplet": "spin_Hu_MA_copy0",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 0,
+      "row": 0,
+      "terms": [
+        {
+          "spin": [
+            0,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.49999999999999933,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            2
+          ],
+          "coefficient": [
+            0.49999999999999933,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            0
+          ],
+          "coefficient": [
+            -0.49999999999999933,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.49999999999999933,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hu_MA_copy0/row1",
+      "multiplet": "spin_Hu_MA_copy0",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 0,
+      "row": 1,
+      "terms": [
+        {
+          "spin": [
+            0,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.28867513459481237,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.2886751345948124,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            0
+          ],
+          "coefficient": [
+            0.2886751345948124,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            2
+          ],
+          "coefficient": [
+            0.28867513459481237,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.2886751345948124,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.28867513459481237,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            0
+          ],
+          "coefficient": [
+            -0.28867513459481237,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            2
+          ],
+          "coefficient": [
+            -0.2886751345948124,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hu_MA_copy0/row2",
+      "multiplet": "spin_Hu_MA_copy0",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 0,
+      "row": 2,
+      "terms": [
+        {
+          "spin": [
+            0,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            0,
+            3,
+            3
+          ],
+          "coefficient": [
+            0.28867513459481237,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            1
+          ],
+          "coefficient": [
+            0.28867513459481237,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            2,
+            3
+          ],
+          "coefficient": [
+            0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            0
+          ],
+          "coefficient": [
+            0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            2
+          ],
+          "coefficient": [
+            0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            1
+          ],
+          "coefficient": [
+            -0.28867513459481237,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            2,
+            1,
+            3
+          ],
+          "coefficient": [
+            -0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            1
+          ],
+          "coefficient": [
+            -0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            0,
+            3
+          ],
+          "coefficient": [
+            -0.28867513459481237,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            0
+          ],
+          "coefficient": [
+            -0.2886751345948125,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            2
+          ],
+          "coefficient": [
+            -0.2886751345948125,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "catalog": "baryon-spin",
+      "version": "v1",
+      "name": "spin_Hu_MA_copy0/row3",
+      "multiplet": "spin_Hu_MA_copy0",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 0,
+      "row": 3,
+      "terms": [
+        {
+          "spin": [
+            1,
+            3,
+            1
+          ],
+          "coefficient": [
+            0.49999999999999944,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            1,
+            3,
+            3
+          ],
+          "coefficient": [
+            0.49999999999999944,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            1
+          ],
+          "coefficient": [
+            -0.49999999999999944,
+            0.0
+          ]
+        },
+        {
+          "spin": [
+            3,
+            1,
+            3
+          ],
+          "coefficient": [
+            -0.49999999999999944,
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "multiplets": [
+    {
+      "name": "spin_G1g_S_copy0",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 0,
+      "row_ids": [
+        0,
+        1
+      ],
+      "partner": null
+    },
+    {
+      "name": "spin_Hg_S_copy0",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 0,
+      "row_ids": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "partner": null
+    },
+    {
+      "name": "spin_Hg_S_copy1",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 1,
+      "row_ids": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "partner": null
+    },
+    {
+      "name": "spin_G1g_A_copy0",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "A",
+      "exchange_component": "A",
+      "copy": 0,
+      "row_ids": [
+        10,
+        11
+      ],
+      "partner": null
+    },
+    {
+      "name": "spin_G1g_MS_copy0",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 0,
+      "row_ids": [
+        12,
+        13
+      ],
+      "partner": "spin_G1g_MA_copy0"
+    },
+    {
+      "name": "spin_G1g_MA_copy0",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 0,
+      "row_ids": [
+        14,
+        15
+      ],
+      "partner": "spin_G1g_MS_copy0"
+    },
+    {
+      "name": "spin_G1g_MS_copy1",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 1,
+      "row_ids": [
+        16,
+        17
+      ],
+      "partner": "spin_G1g_MA_copy1"
+    },
+    {
+      "name": "spin_G1g_MA_copy1",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 1,
+      "row_ids": [
+        18,
+        19
+      ],
+      "partner": "spin_G1g_MS_copy1"
+    },
+    {
+      "name": "spin_G1g_MS_copy2",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 2,
+      "row_ids": [
+        20,
+        21
+      ],
+      "partner": "spin_G1g_MA_copy2"
+    },
+    {
+      "name": "spin_G1g_MA_copy2",
+      "irrep": "G1",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 2,
+      "row_ids": [
+        22,
+        23
+      ],
+      "partner": "spin_G1g_MS_copy2"
+    },
+    {
+      "name": "spin_Hg_MS_copy0",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 0,
+      "row_ids": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "partner": "spin_Hg_MA_copy0"
+    },
+    {
+      "name": "spin_Hg_MA_copy0",
+      "irrep": "H",
+      "parity": 1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 0,
+      "row_ids": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "partner": "spin_Hg_MS_copy0"
+    },
+    {
+      "name": "spin_G1u_S_copy0",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 0,
+      "row_ids": [
+        32,
+        33
+      ],
+      "partner": null
+    },
+    {
+      "name": "spin_Hu_S_copy0",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 0,
+      "row_ids": [
+        34,
+        35,
+        36,
+        37
+      ],
+      "partner": null
+    },
+    {
+      "name": "spin_Hu_S_copy1",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "S",
+      "exchange_component": "S",
+      "copy": 1,
+      "row_ids": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "partner": null
+    },
+    {
+      "name": "spin_G1u_A_copy0",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "A",
+      "exchange_component": "A",
+      "copy": 0,
+      "row_ids": [
+        42,
+        43
+      ],
+      "partner": null
+    },
+    {
+      "name": "spin_G1u_MS_copy0",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 0,
+      "row_ids": [
+        44,
+        45
+      ],
+      "partner": "spin_G1u_MA_copy0"
+    },
+    {
+      "name": "spin_G1u_MA_copy0",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 0,
+      "row_ids": [
+        46,
+        47
+      ],
+      "partner": "spin_G1u_MS_copy0"
+    },
+    {
+      "name": "spin_G1u_MS_copy1",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 1,
+      "row_ids": [
+        48,
+        49
+      ],
+      "partner": "spin_G1u_MA_copy1"
+    },
+    {
+      "name": "spin_G1u_MA_copy1",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 1,
+      "row_ids": [
+        50,
+        51
+      ],
+      "partner": "spin_G1u_MS_copy1"
+    },
+    {
+      "name": "spin_G1u_MS_copy2",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 2,
+      "row_ids": [
+        52,
+        53
+      ],
+      "partner": "spin_G1u_MA_copy2"
+    },
+    {
+      "name": "spin_G1u_MA_copy2",
+      "irrep": "G1",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 2,
+      "row_ids": [
+        54,
+        55
+      ],
+      "partner": "spin_G1u_MS_copy2"
+    },
+    {
+      "name": "spin_Hu_MS_copy0",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MS",
+      "copy": 0,
+      "row_ids": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "partner": "spin_Hu_MA_copy0"
+    },
+    {
+      "name": "spin_Hu_MA_copy0",
+      "irrep": "H",
+      "parity": -1,
+      "exchange_irrep": "M",
+      "exchange_component": "MA",
+      "copy": 0,
+      "row_ids": [
+        60,
+        61,
+        62,
+        63
+      ],
+      "partner": "spin_Hu_MS_copy0"
+    }
+  ]
+}

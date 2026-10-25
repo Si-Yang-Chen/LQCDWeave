@@ -1,0 +1,4 @@
+interface:
+  display_name: "LQCDweave · Dilution 向量生产"
+  short_description: "从实际 Laplace 基底生成 QR dilution 向量并保存来源、读回数据"
+  default_prompt: "使用 $lqcdweave-noisevector 编写从已有 Laplace 基底生成、保存和读回 QR dilution 向量的脚本。"

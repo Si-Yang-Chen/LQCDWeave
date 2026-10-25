@@ -1,0 +1,32 @@
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.asv/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Production data and local execution outputs
+/data/
+/outputs/
+/runs/
+/scratch/
+/tests/data/weak_field-preflight/
+# 特定计算项目的临时脚本与产物统一放在 scripts/<项目>/，不入版本库
+/scripts/
